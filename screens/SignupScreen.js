@@ -32,7 +32,7 @@ const SignupScreen = ({ navigation }) => {
 
       <FormInput
         value={confirmPassword}
-        onChangeText={(userPassword) => setPassword(userPassword)}
+        onChangeText={(userPassword) => setConfirmPassword(userPassword)}
         placeholder="Confirm Password"
         icon="lock"
         secureTextEntry={true}

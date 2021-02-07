@@ -1,8 +1,6 @@
 import React from 'react';
 import Provider from './navigation';
 
-const App = () => {
-  return <Provider />;
-};
+const App = () => <Provider />;
 
 export default App;
